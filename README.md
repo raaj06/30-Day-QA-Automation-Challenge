@@ -16,4 +16,4 @@ Senior Manual QA (10+ yrs) → Full-stack Automation Engineer in 30 days
 Currently learning: POM, Pytest, Allure, GitHub Actions, API testing  
 Open to Senior SDET / Automation Lead roles (India + Remote)
 
-Reach out → swarajsourav@gmail.com | +91-XXXXXX | linkedin.com/in/swarajsourav
+Reach out → swarajsourav@gmail.com | +91-8431511113 | linkedin.com/in/swarajsourav
