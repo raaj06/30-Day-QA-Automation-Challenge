@@ -10,10 +10,19 @@ Senior Manual QA (10+ yrs) → Full-stack Automation Engineer in 30 days
 
 
 ## Scripts
-- `selenium_day1.py` – Classic Selenium WebDriver
-- `playwright_day1.py` – Modern Playwright (Microsoft’s choice in 2025)
+from playwright.sync_api import sync_playwright
 
-Currently learning: POM, Pytest, Allure, GitHub Actions, API testing  
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=False)
+    page = browser.new_page()
+    page.goto("https://google.com")
+    page.fill("textarea[name='q']", "Swaraj Sourav – Senior QA Automation Journey STARTED TODAY")
+    page.keyboard.press("Enter")
+    page.wait_for_timeout(5000)
+    print("DAY 1 SUCCESS – YOU ARE NOW AUTOMATING!")
+    browser.close()
+
+Currently Refreshing: POM, Pytest, Allure, GitHub Actions, API testing  
 Open to Senior SDET / Automation Lead roles (India + Remote)
 
 Reach out → swarajsourav@gmail.com | +91-8431511113 | linkedin.com/in/swarajsourav
